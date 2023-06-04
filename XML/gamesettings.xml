@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+
+<!-- Game settings -->
+
+<settings>
+  <game name="Raccoon Reloaded" />
+  <renderer width="1920" height="1080"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+   
+  <sprites path="Media\Images">
+    <sprite name="tile" file="tile" ext ="png" frames="5"/>
+    <sprite name="player" file="player.png"/>
+    <sprite name="turret" file="turret.png"/>
+	<sprite name="MGturret" file="MachineGunTurret.png"/>
+    <sprite name="bullet" file="bullet.png"/>
+    <sprite name="bullet2" file="bullet2.png"/>
+    <sprite name="smoke" file="graysmoke.png"/>
+    <sprite name="spark" file="spark.png"/>
+    <sprite name="greenline" file="greenline.png"/>
+    <sprite name="door" file="door.png"/> 
+	<sprite name="bossturret" file="bossturret.png"/>
+	<sprite name="animalcontrolofficer" file="animalcontrolofficer.png"/>
+	<sprite name="ghost" file="ghost.png"/>
+	<sprite name="bar" file="bar" ext="png" frames="6"/>
+	
+	<!-- Power-Up Sprites -->
+	<sprite name="health" file="Health32.png"/>
+	<sprite name="healthup" file="HealthUp32.png"/>
+	<sprite name="staminaup" file="StaminaUp32.png"/>
+	<sprite name="focusup" file="FocusUp32.png"/>
+	<sprite name="movementspeedup" file="MovementSpeedUp32.png"/>
+	<sprite name="damageup" file="DamageUp32.png"/>
+	
+	<sprite name="antwalk" file="ant.png"/>
+	<sprite name="ant" sheet="antwalk" frames="4">
+      <frame index="0" left="0"   top="0" right="96"  bottom="100"/>>
+      <frame index="1" left="96"  top="0" right="192" bottom="100"/>>
+      <frame index="2" left="192" top="0" right="288" bottom="100"/>>
+      <frame index="3" left="288" top="0" right="385" bottom="100"/>>
+    </sprite>
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds  path="Media\Sounds"> 
+    <sound name="start" file="start.wav" instances="1"/>
+    <sound name="gun" file="44magnum.wav" instances="8"/>
+    <sound name="ricochet" file="ricochet.wav" instances="8"/>
+    <sound name="clang" file="clang.wav" instances="4"/>
+    <sound name="grunt" file="umph.wav" instances="2"/>
+    <sound name="boom" file="boom.wav" instances="4"/>
+	  <sound name="ow" file="ow.wav" instances="8"/>
+    <sound name="feroLoop" file="feroLoop.wav" instances="1"/>
+    <sound name="slowMoStart" file="slowMoStart.wav" instances="1"/>
+    <sound name="slowMoEnd" file="slowMoEnd.wav" instances="1"/>
+	<!-- Garrett's Recorded Sound Effects -->
+	<!-- Gun sounds -->
+	<sound name="9MMclick" file="9MMclick.wav" instances="1"/>
+	<sound name="9MMreload" file="9MMreload.wav" instances="1"/>
+	<sound name="AKreload" file="AKreload.wav" instances="1"/>
+	<sound name="AKrack" file="AKrack.wav" instances="1"/>
+	<sound name="AKclick" file="AKclick.wav" instances="1"/>
+	<sound name="bulletload" file="bulletload.wav" instances="1"/>
+	<!-- Guitar sounds -->
+	<sound name="Bend1" file="Bend1.wav" instances="1"/>
+	<sound name="Bend2" file="Bend2.wav" instances="1"/>
+	<sound name="Bend3" file="Bend3.wav" instances="1"/>
+	
+	<sound name="Chug1" file="Chug1.wav" instances="1"/>
+	<sound name="Chug2" file="Chug2.wav" instances="1"/>
+	
+	<sound name="PowerChord1" file="PowerChord1.wav" instances="1"/>
+	<sound name="PowerChord2" file="PowerChord2.wav" instances="1"/>
+	<sound name="PowerChord3" file="PowerChord3.wav" instances="1"/>
+	<sound name="PowerChord4" file="PowerChord4.wav" instances="1"/>
+	
+	<sound name="Slide1" file="Slide1.wav" instances="1"/>
+	
+	<sound name="Octave1" file="Octave1.wav" instances="1"/>
+	
+	<sound name="HappyChord1" file="HappyChord1.wav" instances="1"/>
+  </sounds>
+</settings>
